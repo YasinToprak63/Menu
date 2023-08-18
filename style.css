@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.container {
+    border: 3px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 100%;
+    background-color: rgb(46, 44, 44);
+    color: white;
+     
+}
+.container .container-img-title{
+    text-align: center;
+    margin-top: 0.75rem;
+    
+}
+.container .container-img-title img{
+    height: 50%;
+    width: 60%;
+    border-radius: 10px;
+}
+.container .container-title {
+    text-align: center;
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+}
+.container .container-food .container-food-img img{
+    width: 100%;
+    height: 150px;
+    image-rendering: auto;
+    box-shadow: 2px 2px 1px 1px rgb(190, 22, 22);
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+.container .container-food {
+    display: flex;
+    flex-direction: column;
+    margin:1rem 0.75rem 1rem 0.75rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.container .container-food .food-price{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(207, 201, 201);
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+.food-half {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(207, 201, 201);
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.container .container-drink {
+    margin-top: 0.75rem;
+    text-align: center;
+}
+.container .container-drink .container-drink-img img {
+    width: 80%;
+    height: 270px;
+    image-rendering: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.container .container-drink .drink-price{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(207, 201, 201);
+    padding: 0.5rem;
+    border-radius: 20px;
+    
+}
